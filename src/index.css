@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(179, 190, 178);
+}
+
+.btn{
+    @apply bg-blue-400 text-black px-5 py-1 rounded-lg font-semibold border-2 border-black md:text-[25px] text-[16px] text-center
+}
+.txt{
+    @apply text-black px-5 py-1 rounded-lg font-semibold border-2 border-black border-opacity-25 md:text-[25px] text-[16px]
+}
